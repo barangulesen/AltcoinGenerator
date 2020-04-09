@@ -1,10 +1,7 @@
-# Altcoin Generator
-Easiest way to create your own cryptocurrency.
-
 ## What does this script do?
 
-This script is an experiment to generate new cryptocurrencies (altcoins) based on litecoin.
-It will help you creating a git repository with minimal required changes to start your new coin and blockchain.
+This script is an experiment to generate new cryptocoin (altcoins) based on litecoin.
+It will help you creating a git repository with minimal required changes to start new coin and blockchain.
 
 ## What do I have to do?
 
@@ -47,7 +44,6 @@ Instructions on how to do it will be printed once the script execution is done.
 ## Is there anything I must be aware of?
 
 Yes.
-
   * This is a very simple script to help you bootstrap. More changes will be needed to launch a cryptocurrency for real.
   * You have to manually change the pictures in mycoin/share/pixmaps.
   * You will need change the checkpoints in mycoin/src/chainparams.cpp.
@@ -62,9 +58,3 @@ Then you can clean up the mess with:
 ```
 bash altcoin_generator.sh clean_up
 ```
-
-## Can I help the project?
-Sure. You can either submit patches, or make a donation if you found this project useful:
-
-LTC: Lcaey9FP2zdu4C9TSVffDG1DuKh78yCDYT
-BTC: 1BB44xSWSHwgM2AMP7MScqk2CALuo6A6UY
